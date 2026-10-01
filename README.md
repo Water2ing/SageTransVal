@@ -47,5 +47,3 @@ python scripts/reproduce_paper_pipeline.py run-crust-v2 \
 ```
 
 The runner validates the five main modes with the primary UB-safe policy (300 events total) and guided mode with that policy disabled (60 events), then writes a summary and repair packets under `reproduction/`. It refuses to overwrite an existing output directory. The required C-to-Rust source subjects must be supplied at `data/c_rust_v2_run/subjects/`; no datasets or run outputs are included here.
-
-Python-to-Java statistical rechecks and repair revalidation likewise require the original translation snapshots and validation logs. The archived manuscript rates and staged tables are not part of this repository and are not modified by these scripts.
