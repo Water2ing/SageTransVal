@@ -1,0 +1,19 @@
+{
+  "name": "csonet",
+  "version": "1.0.0",
+  "description": "`TestGenRL` is a Python research framework for modeling LLM-based test generation as a budget-constrained MDP. It includes subject loading, state construction, valid-action masking, cached LLM-style executors, event logging, baseline planners, replay-based DQN training, and report generation for cost-aware failure discovery experiments.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

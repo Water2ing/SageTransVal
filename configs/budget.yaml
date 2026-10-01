@@ -1,0 +1,5 @@
+tokens: 1000
+runtime_seconds: 30
+fuzz_iterations: 100
+solver_seconds: 0
+horizon: 8
